@@ -378,3 +378,187 @@ nav ul a:hover {
     font-weight: bold;
 }
 
+// MUMBAI CONTENTS STYLE
+
+#mumbai-pictures {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.mumbai-contents {
+    width: 100%;
+    text-align: center;
+}
+
+.mumbai-contents h3 {
+    color: #ffa500;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mumbai-item {
+    text-align: left;
+}
+
+.mumbai-item h3 {
+    font-size: 20px;
+}
+
+.mumbai-item img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.mumbai-item p {
+    color: #5d5d5d;
+    font-size: 1em;
+}
+
+.mumbai-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+// REVIEWER STYLE
+
+#reviewer {
+    width: 90%;
+    margin: 100px auto;
+}
+
+#reviewer .reviewer-contents {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.reviewer-contents .left-contents h3 {
+    color: #ffa500;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.reviewer-contents .left-contents p {
+    color: #5d5d5d;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.right-contents-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.right-contents {
+    padding: 20px;
+    border: 1px solid #ffa500;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.right-contents:hover.right-contents p {
+    color: black;
+}
+
+.right-contents:hover {
+    background-color: #f2e0bf;
+}
+
+.reviewer-contents .right-contents p {
+    color: #5d5d5d;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.reviewer-contents .right-contents img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+// FORM STYLE
+
+#form-review {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.form-review-contents {
+    text-align: center;
+    width: 100%;
+}
+
+.form-review-contents h3 {
+    color: #ffa500;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-review-layout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-review-layout iframe {
+    width: 40%;
+}
+
+.form-review-layout form {
+    width: 60%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+}
+
+.form-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-content input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-content .input-review {
+    grid-column: span 2;
+}
+
+.form-content .input-review input {
+    height: 200px;
+}
+
+.form-content button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    white-space: nowrap;
+}
+
+.form-content button:hover {
+    background-color: #f2e0bf;
+    color: #ffa500;
+}
+
+.form-content .btn {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
