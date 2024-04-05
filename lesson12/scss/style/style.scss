@@ -1,0 +1,47 @@
+#landing-page {
+    background-image: url('https://hoanganf8.github.io/htmlcss_project02/image/landing-background.jpg');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    
+}
+
+#landing-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+#landing-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    h4 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 6.5rem;
+    }
+
+    p {
+        width: 384px;
+        font-size: 1.125rem;
+        line-height: 1.3333333333em;
+        font-weight: 500;
+    }
+}

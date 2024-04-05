@@ -1,0 +1,380 @@
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 1rem 9%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+header a span {
+    color: #ffa500;
+}
+
+header i {
+    position: absolute;
+    right: 20%;
+    color: #ffa500;
+    font-size: 2em;
+}
+
+header .book {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: rgba(34, 34, 34, 0.9);
+    background-color: #ffa500;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    border: 1px solid #ffa500;
+}
+
+header .book:hover {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: white;
+}
+
+// NAV STYLE
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0.7rem;
+    transition-duration: 0.5s;
+}
+
+nav ul a:hover {
+    color: #ffa500;
+}
+
+// BANNER STYLE
+
+#banner {
+    display: flex;
+    margin-top: 7em;
+    width: 100%;
+    background:
+        linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
+        url(https://stravelhtml.vercel.app/mumbai/images/home-bg.jpg) no-repeat;
+    min-height: 80vh;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#banner h3 {
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 0.1rem #ffa500;
+    font-size: 4vw;
+    display: block;
+}
+
+#banner .content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner .content h2 {
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+}
+
+#banner .content p {
+    font-size: 1em;
+    color: white;
+    font-weight: 400;
+    line-height: 2;
+    margin: 1rem 0;
+    max-width: 43rem;
+}
+
+#banner .content a {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: rgba(34, 34, 34, 0.9);
+    background-color: #ffa500;
+    text-decoration: none;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    border: 1px solid #ffa500;
+}
+
+#banner .content a:hover {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: white;
+}
+
+// VOUCHER STYLE
+
+#voucher {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#voucher-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: -50px;
+    background: #efefef;
+    border-radius: 20px;
+}
+
+#voucher-content h2 {
+    color: #ffa500;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#voucher-content a {
+    width: 50%;
+    background-color: #ffa500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid #ffa500;
+    transition-duration: 0.5s;
+    font-weight: 500;
+}
+
+#voucher-content a:hover {
+    background-color: #f2e0bf;
+    color: #ffa500;
+}
+
+// VIEW STYLE
+
+#view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin: 100px auto;
+}
+
+#view .slider {
+    width: 50%;
+}
+
+#view .slider video {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+#view-desc h3 {
+    color: #ffa500;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#view-desc h2 {
+    font-size: 40px;
+}
+
+#view-desc p {
+    color: #5d5d5d;
+    line-height: 2;
+    padding: 1rem 0;
+    font-size: 1.1em;
+}
+
+#view-desc a {
+    width: 50%;
+    background-color: #ffa500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid #ffa500;
+    transition-duration: 0.5s;
+    font-weight: 500;
+}
+
+#view-desc a:hover {
+    background-color: #f2e0bf;
+    color: #ffa500;
+}
+
+#places {
+    width: 90%;
+    margin: 100px auto;
+}
+
+#places #content {
+    text-align: center;
+    width: 100%;
+}
+
+#places #content h3 {
+    color: #ffa500;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#places #content h2 {
+    font-size: 40px;
+}
+
+#places #content .layout {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#places #content .layout h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#places #content .layout .desc {
+    padding: 20px;
+    height: 250px;
+    position: relative;
+}
+
+#places #content .layout p {
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+
+#places #content .layout .desc {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+
+#places #content .layout .more {
+    font-size: 18px;
+    position: absolute;
+    color: #ffa500;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+#places #content .layout a {
+    text-decoration: none;
+    color: #ffa500;
+    transition-duration: 0.4s;
+}
+
+#places #content .layout a:hover {
+    transform: translateX(-10px);
+}
+
+
+#places #content .layout img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+#places #content .layout .layout-content:hover img {
+    transform: scale(1.1);
+}
+
+
+// SERVICE STYLE
+
+#service {
+    width: 90%;
+    margin: 100px auto;
+}
+
+#service .service-content {
+    text-align: center;
+    width: 100%;
+}
+
+#service .service-content h3 {
+    color: #ffa500;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#service .service-content h2 {
+    font-size: 40px;
+}
+
+#service .service-content .layout {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#service .service-content .layout .content {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffa500;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+#service .service-content .layout .content:hover {
+    background-color: #f2e0bf;
+}
+
+#service .service-content .layout .content i {
+    color: #ffa500;
+    font-size: 2.5em;
+}
+
+#service .service-content .layout .content h3 {
+    color: black;
+    font-weight: bold;
+}
+
